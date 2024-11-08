@@ -1,0 +1,29 @@
+@font-face {
+    font-family: novaFonte;
+    src: url("font/ds_digital/DS-DIGI.TTF");
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    background-color: rgb(68, 68, 68);
+    min-width: 500px;
+    min-height: 120px;
+    padding-top: 35px;
+    color: red;
+    font-size: 5em;
+    font-family: novaFonte, Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px 0px #353434;
+}
